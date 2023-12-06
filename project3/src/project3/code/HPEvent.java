@@ -300,7 +300,6 @@ public class HPEvent {
         	try {
         		br = new BufferedReader(new FileReader(textFile));
 		        textContent = br.readLine();
-//		        if (textContent == null) break;
 	         
 	            hpGUI.pastDataDateField[(hpGUI.pastDataNumber-1)-fileNumber].setText(textFile.getName());
 	    		hpGUI.pastDataRecordField[(hpGUI.pastDataNumber-1)-fileNumber].setText(textContent);
