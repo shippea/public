@@ -196,7 +196,6 @@ public class HPEvent {
 //            		searchExerciseNameFrame.dispose();
 //            	}
             	
-            	
             	addExerciseNameFrame = new JFrame("새 폴더 이름");
             	addExerciseNameFrame.setBounds(350, 450, 250, 120);
             	addExerciseNameFrame.setLayout(null);
@@ -261,7 +260,6 @@ public class HPEvent {
 						}
 					}
                 } // result if
-                
                 
             } // btnList[4] actionlistener
         });
